@@ -25,6 +25,15 @@ export default function Footer() {
             >
               @labnol
             </a>
+            &nbsp;
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://github.com/kanji-keraliya"
+              className="text-indigo-600 font-semibold"
+            >
+              Updated By Kanji Keraliya
+            </a>
           </span>
         </div>
       </div>

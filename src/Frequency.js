@@ -22,6 +22,8 @@ export default function Frequency({ onChange, value }) {
         <option value="1">Every hour</option>
         <option value="30">Every 30 minutes</option>
         <option value="15">Every 15 minutes</option>
+        <option value="5">Every 5 minutes</option>
+        <option value="minute">Every minute</option>
       </select>
     </div>
   );

@@ -9,9 +9,11 @@ export const createTrigger = (frequency) => {
   const trigger = ScriptApp.newTrigger('app').timeBased();
   if (frequency === 'day') {
     trigger.atHour(8).everyDays(1).create();
+  } else if (frequency === 'minute') {
+    trigger.everyMinutes(1).create();
   } else {
     const time = Number(frequency);
-    if (time === 15 || time === 30) {
+    if (time === 5 || time === 10 || time === 15 || time === 30) {
       trigger.everyMinutes(frequency).create();
     } else {
       trigger.everyHours(frequency).create();

@@ -1,6 +1,6 @@
 {
-  "scriptId:prod": "1i92smktGsKPu1VjsHtshn3rDp8LvNAL6JgJ6wXyy5UpbNBlkOAXAmNsB",
-  "scriptId:dev": "1s6Zs9-IIEQFo8bKlPZdsu5l11_bOJkLr5TcVmCS4VJhBiUdDz2pf3ZOI",
-  "scriptId": "1i92smktGsKPu1VjsHtshn3rDp8LvNAL6JgJ6wXyy5UpbNBlkOAXAmNsB",
+  "scriptId:prod": "1N_FOO8plycFrUEzutdoiqflQdYUtIx8zJhP_4ZOViQD6D0oh3nnou5tR",
+  "scriptId:dev": "1N_FOO8plycFrUEzutdoiqflQdYUtIx8zJhP_4ZOViQD6D0oh3nnou5tR",
+  "scriptId": "1N_FOO8plycFrUEzutdoiqflQdYUtIx8zJhP_4ZOViQD6D0oh3nnou5tR",
   "rootDir": "dist"
 }

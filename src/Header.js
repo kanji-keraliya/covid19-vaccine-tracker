@@ -28,6 +28,15 @@ export default function Header() {
         >
           Digital Inspiration
         </a>
+        &nbsp;for&nbsp;
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://github.com/kanji-keraliya"
+          className="font-medium text-indigo-600 hover:text-indigo-500"
+        >
+          Updated By Kanji Keraliya
+        </a>
       </p>
     </div>
   );
