@@ -49,6 +49,26 @@ export default function Form({ onSubmit, onChange, formData, sending }) {
             />
           </div>
         </div>
+        <div>
+          <label
+            htmlFor="email"
+            className="block text-sm font-medium text-gray-700"
+          >
+            Slack Incoming Webhook URL(the alerts will be sent there)
+          </label>
+          <div className="mt-1">
+            <input
+              onChange={onChange}
+              value={formData.webhookUrl}
+              id="webhookUrl"
+              name="webhookUrl"
+              type="website"
+              autoComplete="website"
+              placeholder="Enter Slack Incoming url here..."
+              className="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+            />
+          </div>
+        </div>
 
         <Age onChange={onChange} value={formData.age} />
         <Vaccine onChange={onChange} value={formData.vaccine} />

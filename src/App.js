@@ -9,6 +9,7 @@ export default function App() {
   const [formData, setFormData] = useState({
     pincode: '',
     email: '',
+    webhookUrl: '',
     frequency: 'day',
     age: 'any',
     vaccine: 'any',

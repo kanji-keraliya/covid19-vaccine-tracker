@@ -5,7 +5,7 @@ export const sendEmail = (centers, email) => {
   const { length } = centers;
   if (length > 0) {
     const { count, body } = getBody(centers);
-    const cachedBody = CacheService.getScriptCache().get('body') || '';
+    const cachedBody = ''; //= CacheService.getScriptCache().get('body') || '';
     if (count > 0 && cachedBody !== body) {
       MailApp.sendEmail(
         email,
@@ -16,7 +16,7 @@ export const sendEmail = (centers, email) => {
           replyTo: 'support@digitalinspiration.com',
         }
       );
-      CacheService.getScriptCache().put('body', body, 21600);
+      CacheService.getScriptCache().put('body', body, 60);
     }
   }
 };
