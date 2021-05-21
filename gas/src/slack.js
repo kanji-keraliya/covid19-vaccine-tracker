@@ -11,7 +11,7 @@ export const sendSlackNotification = (centers, slackIncomingUrl) => {
           type: 'section',
           text: {
             type: 'mrkdwn',
-            text: `*Body:* \n ${body}`,
+            text: `${body}`,
           },
         },
       ],

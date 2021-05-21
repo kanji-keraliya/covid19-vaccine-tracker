@@ -1,5 +1,6 @@
 /* eslint-disable camelcase */
 
+/* eslint no-console: ["error", { allow: ["log", "warn", "error"] }] */
 import { compareMaxDate, compareMinDate } from './date';
 
 export const findCenters = (response, formData) => {
@@ -44,6 +45,7 @@ export const findCenters = (response, formData) => {
     }
   } catch (f) {
     // do nothing
+    console.log('ERROR findCenters', f);
   }
   return [];
 };
